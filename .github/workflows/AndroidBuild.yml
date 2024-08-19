@@ -6,7 +6,7 @@ on:
     branches: [ workflow_build ]
 
 jobs:
-  build:
+  static-code-analysis:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
